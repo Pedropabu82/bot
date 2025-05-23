@@ -1,0 +1,3 @@
+timestamp,symbol,timeframe,type,entry_price,exit_price,pnl_pct,result
+2025-05-22 14:32:10,BTCUSDT,5m,ENTRY,65000,66700,2.62,win
+2025-05-22 16:45:55,BTCUSDT,15m,ENTRY,31000,30300,-2.26,loss

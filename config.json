@@ -1,0 +1,71 @@
+{
+  "api_key": "0a044906df97f304267105b396629088be25695dcd0d777e9a33b8aa111535fb",
+  "api_secret": "15d5583a6bab5d8b63af90fbf34d5d741742539725f1ec4eae69833469470e13",
+  "symbols": ["BTCUSDT"],
+  "timeframes": ["5m", "15m", "30m", "1h", "2h", "4h", "6h", "8h", "12h", "1d"],
+  "ws_timeframes": ["5m", "15m", "1h", "4h"],
+  "testnet": true,
+  "leverage": 13,
+  "tp_roi": 4.0,
+  "sl_roi": 2.5,
+  "trailing_stop_percentage": 0.0001,
+  "min_score": 4.0,
+  "cooldown_pair_sec": 900,
+  "cooldown_signal_tf_sec": 3600,
+  "mode": "maker",
+  "entry_timeout_sec": 30,
+  "price_offset_pct": 0.0001,
+  "order_types": {
+    "5m": "limit",
+    "15m": "limit",
+    "30m": "limit",
+    "1h": "limit",
+    "2h": "limit",
+    "4h": "limit",
+    "6h": "limit",
+    "8h": "limit",
+    "12h": "limit",
+    "1d": "limit"
+  },
+  "indicators": {
+    "BTCUSDT": {
+      "ema_short": 12,
+      "ema_long": 26,
+      "rsi_period": 14,
+      "stoch_rsi_period": 14,
+      "stoch_rsi_fastk": 3,
+      "stoch_rsi_fastd": 3,
+      "adx_period": 14,
+      "macd_fast": 12,
+      "macd_slow": 26,
+      "macd_signal": 9,
+      "tema_period": 21
+    },
+    "SOLUSDT": {
+      "ema_short": 12,
+      "ema_long": 26,
+      "rsi_period": 14,
+      "stoch_rsi_period": 14,
+      "stoch_rsi_fastk": 3,
+      "stoch_rsi_fastd": 3,
+      "adx_period": 14,
+      "macd_fast": 12,
+      "macd_slow": 26,
+      "macd_signal": 9,
+      "tema_period": 21
+    },
+    "ETHUSDT": {
+      "ema_short": 12,
+      "ema_long": 26,
+      "rsi_period": 14,
+      "stoch_rsi_period": 14,
+      "stoch_rsi_fastk": 3,
+      "stoch_rsi_fastd": 3,
+      "adx_period": 14,
+      "macd_fast": 12,
+      "macd_slow": 26,
+      "macd_signal": 9,
+      "tema_period": 21
+    }
+  }
+}
